@@ -22,7 +22,7 @@ const [value, setValue] = useState(2)
     let [on, setOn] = useState<boolean>(false)
     return (
         <div className='App'>
-            <Select value={value} onChange={setValue} items={items} />
+            {/*<Select value={value} onChange={setValue} items={items} />*/}
            {/*<ControlledInput />*/}
             {/*<ControlledCheckbox />*/}
             {/*<ControlledSelect />*/}
@@ -36,7 +36,7 @@ const [value, setValue] = useState(2)
             {/*  <Rating />*/}
             {/*  <OnOff/>*/}
             {/*<UncontrolledOnOff onChange={setOn}/> {on.toString()}*/}
-            {/*<UncontrolledAccordion titleValue={'Menu'}/>*/}
+            <UncontrolledAccordion titleValue={'Menu'}/>
             {/*<OnOff setOnOff={setOn} on={on}/>*/}
         </div>
     );
